@@ -23,7 +23,7 @@ export default function App(){
           minimumTrackTintColor="#000"
           thumbTintColor='#392de9'
           value={size}
-          onValueChange={(value) => setSize(value)}
+          onValueChange={(value) => setSize(value.toFixed(0))}
         />
       </View>
 
